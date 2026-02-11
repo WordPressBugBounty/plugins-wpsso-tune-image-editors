@@ -10,8 +10,8 @@ Tags: image, sharpen, imagemagick, imagick, resize
 Contributors: jsmoriss
 Requires Plugins: wpsso
 Requires PHP: 7.4.33
-Requires At Least: 5.9
-Tested Up To: 6.8.1
+Requires At Least: 6.0
+Tested Up To: 6.9
 Stable Tag: 4.1.0
 
 Improves the appearance of WordPress images for better click through rates from social and search sites.
@@ -56,7 +56,7 @@ Optionally fine-tune the image filter priority and image adjustment options:
 
 <h3>WPSSO Core Required</h3>
 
-WPSSO Tune WP Image Editors (WPSSO TIE) is an add-on for the [WPSSO Core plugin](https://wordpress.org/plugins/wpsso/), which creates extensive and complete structured data to present your content at its best for social sites and search results – no matter how URLs are shared, reshared, messaged, posted, embedded, or crawled.
+WPSSO Tune WP Image Editors is an add-on for the [WPSSO Core plugin](https://wordpress.org/plugins/wpsso/), which creates extensive and complete structured data to present your content at its best for social sites and search results – no matter how URLs are shared, reshared, messaged, posted, embedded, or crawled.
 
 == Installation ==
 
@@ -109,7 +109,7 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 	* Changed the main instantiation action hook from 'init_objects' to 'init_objects_preloader'.
 * **Requires At Least**
 	* PHP v7.4.33.
-	* WordPress v5.9.
+	* WordPress v6.0.
 	* WPSSO Core v18.20.0.
 
 == Upgrade Notice ==
